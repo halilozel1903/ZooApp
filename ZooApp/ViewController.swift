@@ -78,6 +78,22 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return animalType[section]
     }
+    
+    
+    // elemanlara tıklanınca ne olacak
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if indexPath.section == 0{ // 0 ise
+            print(listOfNotKillerAnimals[indexPath.row].name!) // name değerini optional değerden kurtarma
+           // listOfKillerAnimals.remove(at: indexPath.row]) // tıklanınca sil
+        }else{ // 1 ise
+            print(listOfKillerAnimals[indexPath.row].name!)
+           // listOfKillerAnimals.remove(at: indexPath.row]) // tıklanınca sil
+        }
+        
+        // tableViewAnimal.reloadData() // guncelle
+    }
 
 
 }
