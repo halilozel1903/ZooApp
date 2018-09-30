@@ -86,10 +86,12 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         if indexPath.section == 0{ // 0 ise
             print(listOfNotKillerAnimals[indexPath.row].name!) // name değerini optional değerden kurtarma
-           // listOfKillerAnimals.remove(at: indexPath.row]) // tıklanınca sil
+           // listOfKillerAnimals.remove([indexPath.row]) // tıklanınca sil
+            // listOfKillerAnimals.append([indexPath.row]) // tıklanınca ekleme
         }else{ // 1 ise
             print(listOfKillerAnimals[indexPath.row].name!)
-           // listOfKillerAnimals.remove(at: indexPath.row]) // tıklanınca sil
+           // listOfKillerAnimals.remove([indexPath.row]) // tıklanınca sil
+            //  listOfKillerAnimals.append([indexPath.row]) // tıklanınca ekleme
         }
         
         // tableViewAnimal.reloadData() // guncelle
