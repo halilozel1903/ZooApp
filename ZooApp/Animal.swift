@@ -8,12 +8,15 @@
 
 import Foundation
 
+// class tanımı
 class Animal{
     
+    // degisken tanımlamaları
     var name : String?
     var desc : String?
     var image : String?
     
+    // degiskenleri initial etme işlemleri
     init(name:String,desc:String,image:String) {
         self.name = name
         self.desc = desc
