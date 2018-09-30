@@ -12,6 +12,8 @@
 		9FC72AC1215D675D00057F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC72ABF215D675D00057F4E /* Main.storyboard */; };
 		9FC72AC3215D675E00057F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC72AC2215D675E00057F4E /* Assets.xcassets */; };
 		9FC72AC6215D675E00057F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC72AC4215D675E00057F4E /* LaunchScreen.storyboard */; };
+		9FC72ACE215D6D1400057F4E /* AnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC72ACD215D6D1400057F4E /* AnimalTableViewCell.swift */; };
+		9FC72AD0215D6F6E00057F4E /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC72ACF215D6F6E00057F4E /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9FC72AC2215D675E00057F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC72AC5215D675E00057F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC72AC7215D675E00057F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC72ACD215D6D1400057F4E /* AnimalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewCell.swift; sourceTree = "<group>"; };
+		9FC72ACF215D6F6E00057F4E /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9FC72AC2215D675E00057F4E /* Assets.xcassets */,
 				9FC72AC4215D675E00057F4E /* LaunchScreen.storyboard */,
 				9FC72AC7215D675E00057F4E /* Info.plist */,
+				9FC72ACD215D6D1400057F4E /* AnimalTableViewCell.swift */,
+				9FC72ACF215D6F6E00057F4E /* Animal.swift */,
 			);
 			path = ZooApp;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC72ACE215D6D1400057F4E /* AnimalTableViewCell.swift in Sources */,
+				9FC72AD0215D6F6E00057F4E /* Animal.swift in Sources */,
 				9FC72ABE215D675D00057F4E /* ViewController.swift in Sources */,
 				9FC72ABC215D675D00057F4E /* AppDelegate.swift in Sources */,
 			);
